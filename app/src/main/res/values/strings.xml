@@ -1,5 +1,10 @@
-<resources>
-  <string name="app_name">Stock Hawk</string>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+  <!-- Message to Translator: You will be writing the translations for the string's content on this file -->
+  <string name="app_name">
+    <!-- This will not be translated. It is the name of the app -->
+    <xliff:g>Stock Hawk</xliff:g>
+  </string>
 
   <string name="action_example">Example action</string>
 
@@ -7,7 +12,14 @@
   <string name="action_change_units">Change Units</string>
   <string name="symbol_search">Symbol Search</string>
   <string name="content_test">Search for a Stock Symbol</string>
-  <string name="input_hint">FB</string>
+
+
+  <string name="input_hint">
+    <!-- This will not be translated. It is the name of a company on the Stock Market -->
+    <xliff:g>FB</xliff:g>
+  </string>
+
   <string name="input_prefill"></string>
+  <string name="add_stock">Add stock company to list.</string>
   <string name="network_toast">Uh-oh! This app requires an internet connection</string>
 </resources>
